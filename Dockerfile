@@ -11,6 +11,5 @@ COPY app/ .
 
 WORKDIR /work
 RUN chmod +x /app/start.sh
-RUN chmod +x /app/run.py
 
 CMD ["/app/start.sh"]
