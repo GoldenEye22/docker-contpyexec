@@ -6,6 +6,9 @@ VOLUME /work
 RUN mkdir /app
 WORKDIR /app
 
+COPY VERSION VERSION
+COPY app/ .
+
 WORKDIR /work
 RUN chmod +x /app/start.sh
 
