@@ -4,10 +4,9 @@ LABEL maintainer="GoldenEye22@github.com"
 VOLUME /work
 
 COPY VERSION VERSION
+COPY . .
 
 WORKDIR /work
-
-COPY . .
 
 CMD ["/work/start.sh"]
 CMD ["/work/run.sh"]
