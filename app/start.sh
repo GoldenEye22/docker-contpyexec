@@ -6,4 +6,4 @@ then
     pip install -r /work/my_requirements.txt
 fi
 
-./work/run.sh
+#./work/run.sh
