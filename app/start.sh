@@ -6,4 +6,8 @@ then
     pip install -r /work/my_requirements.txt
 fi
 
+while :
+do
+done
+
 #./work/run.sh
