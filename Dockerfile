@@ -9,5 +9,5 @@ WORKDIR /work
 
 COPY . .
 
-CMD ["./work/start.sh"]
-CMD ["./work/run.sh"]
+CMD ["/work/start.sh"]
+CMD ["/work/run.sh"]
