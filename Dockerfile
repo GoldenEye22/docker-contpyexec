@@ -7,5 +7,5 @@ COPY VERSION VERSION
 
 WORKDIR /work
 
-CMD ["/work/start.sh"]
+CMD ["/work/setup.sh"]
 CMD ["/work/run.sh"]
