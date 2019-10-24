@@ -1,4 +1,4 @@
-FROM python:3.7-slim-stretch
+FROM python:3.7.5-slim-stretch
 LABEL maintainer="GoldenEye22@github.com"
 
 VOLUME /work
